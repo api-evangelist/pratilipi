@@ -1,7 +1,16 @@
 aid: pratilipi
-name: pratilipi
-description: pratilipi is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Pratilipi
+description: >-
+  Pratilipi is India's largest digital storytelling platform, democratizing story creation and
+  consumption across languages, formats, and boundaries. Built by Nasadiya Technologies Private
+  Limited and headquartered in Bangalore, it lets more than 300,000 self-published writers reach
+  roughly 25 million monthly readers across twelve Indian languages (Hindi, Gujarati, Marathi,
+  Bengali, English, Tamil, Telugu, Kannada, Malayalam, Punjabi, Urdu, and Odia). The ecosystem
+  spans Pratilipi Literature, Pratilipi FM (audio books, podcasts, and folk songs), Pratilipi
+  Comics (the largest Hindi online comic platform), Westland Publications, and IVM Podcasts,
+  carrying a story "from someone's draft to someone's screen." Pratilipi does not publish a public
+  developer API; this profile captures the company's identity, web properties, and domain-security
+  posture for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/pratilipi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,17 +18,56 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Storytelling
+- Publishing
+- Content
+- Media
+- Audio
+- Comics
+- India
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+image: https://framerusercontent.com/images/KV1ra1siZKi75kyZ2iijcCNVXjw.png
 common:
 - type: Website
   url: https://pratilipi.com
+- type: About
+  url: https://english.pratilipi.com/about/pratilipi
+- type: TermsOfService
+  url: https://english.pratilipi.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://english.pratilipi.com/privacy-policy
+- type: Careers
+  url: https://hub.pratilipi.com/jobs
+- type: GitHubOrganization
+  url: https://github.com/pratilipi
+- type: TrustCenter
+  url: https://trust.pratilipi.com/
+- type: DomainSecurity
+  url: security/pratilipi-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 1
+  pass: local-v1
